@@ -15,7 +15,8 @@ Results on Deliverable:
 Resulting Model:
 
 mpg = (6.267)vehicle_length + (0.0012)vehicle_weight + (0.0688)spoiler_angle + (3.546)ground_clearance + (-3.411)AWD + (-104.0)
-[linear_regression_d1](https://user-images.githubusercontent.com/106028585/200074458-d7f7b03a-d100-46e6-ad54-eb9b2e8eeb55.png)
+![linear_regression_d1](https://user-images.githubusercontent.com/106028585/200076823-a44c6cb6-27f3-45e4-a108-0fe5986a73f1.png)
+
 Statistical Summary: d1
 
 From the above output we can see that:
