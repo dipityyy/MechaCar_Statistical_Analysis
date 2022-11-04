@@ -1,3 +1,5 @@
+<img width="1406" alt="AutoRUs" src="https://user-images.githubusercontent.com/106028585/200074267-daaf267e-8b3f-4c47-bd50-db1a5e046bff.png">!
+
 # MechaCar_Statistical_Analysis
 Deliverable Requirements:
 
@@ -13,7 +15,7 @@ Results on Deliverable:
 Resulting Model:
 
 mpg = (6.267)vehicle_length + (0.0012)vehicle_weight + (0.0688)spoiler_angle + (3.546)ground_clearance + (-3.411)AWD + (-104.0)
-
+[linear_regression_d1](https://user-images.githubusercontent.com/106028585/200074458-d7f7b03a-d100-46e6-ad54-eb9b2e8eeb55.png)
 Statistical Summary: d1
 
 From the above output we can see that:
@@ -25,8 +27,10 @@ The p-Value for this model, p-Value: 5.35e-11, is much smaller than the assumed 
 This linear model has an r-squared value of 0.7149, which means that approximately 71% of all mpg predictions will be determined by this model. Relatively speaking, his multiple regression model does predict mpg of MechaCar prototypes effectively.
 
 If we remove the less impactful independent variables (vehicle weight, spoiler angle, and All Wheel Drive), the predictability does decrease, but not drastically: the r-squared value falls from 0.7149 to 0.674.
+![new_linear_regression_d1](https://user-images.githubusercontent.com/106028585/200075107-62706b53-622a-4bed-9e0b-1e5b7b3c4f47.png)
 
-d1
+
+
 
 Deliverable 2:
 
@@ -49,6 +53,7 @@ d1
 
 Write an RScript that creates a lot_summary dataframe using the group_by() and the summarize() functions to group each manufacturing lot by the mean, median, variance, and standard deviation of the suspension coil’s PSI column. Your lot_summary dataframe should look like this:
 d1
+![data-15-total-summary-data-mean-median-variance-sd](https://user-images.githubusercontent.com/106028585/200075240-99efb4df-483e-4a65-8cf2-db90a31637ad.png)
 
 Save your MechaCarChallenge.RScript file to your GitHub repository.
 To Deliver.
